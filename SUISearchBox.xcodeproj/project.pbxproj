@@ -14,6 +14,7 @@
 		B95681CD23B1E6B700ECA5E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95681CC23B1E6B700ECA5E7 /* Preview Assets.xcassets */; };
 		B95681D023B1E6B700ECA5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95681CE23B1E6B700ECA5E7 /* LaunchScreen.storyboard */; };
 		B95681DB23B1E6B700ECA5E7 /* SUISearchBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95681DA23B1E6B700ECA5E7 /* SUISearchBoxTests.swift */; };
+		B95681E623B4AA0600ECA5E7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95681E523B4AA0600ECA5E7 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B95681D623B1E6B700ECA5E7 /* SUISearchBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUISearchBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95681DA23B1E6B700ECA5E7 /* SUISearchBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUISearchBoxTests.swift; sourceTree = "<group>"; };
 		B95681DC23B1E6B700ECA5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95681E523B4AA0600ECA5E7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B95681CE23B1E6B700ECA5E7 /* LaunchScreen.storyboard */,
 				B95681D123B1E6B700ECA5E7 /* Info.plist */,
 				B95681CB23B1E6B700ECA5E7 /* Preview Content */,
+				B95681E523B4AA0600ECA5E7 /* SearchBar.swift */,
 			);
 			path = SUISearchBox;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B95681C423B1E6B300ECA5E7 /* AppDelegate.swift in Sources */,
+				B95681E623B4AA0600ECA5E7 /* SearchBar.swift in Sources */,
 				B95681C623B1E6B300ECA5E7 /* SceneDelegate.swift in Sources */,
 				B95681C823B1E6B300ECA5E7 /* ContentView.swift in Sources */,
 			);
